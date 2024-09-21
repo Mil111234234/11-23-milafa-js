@@ -9,6 +9,9 @@ if (age < 20){
 }
 
 let vopros = confirm('Хочешь учить js?');
-if (true){
-    alert('Супер!')
+if (vopros == true){
+    alert('супер')
+} else {
+    alert('ок')
 }
+    
