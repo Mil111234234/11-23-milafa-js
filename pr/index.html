@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <div class="head">
+
+            <div class="head-content">
+
+                <div class="logo"><h1>Mango</h1></div>
+                <div class="burger_menu" onclick="openMenu()"> <img src="images/menu.svg" alt=""> </div>
+
+            </div>    
+
+        </div>
+
+    </header>
+
+    <section banner>
+
+            <div class="promo-banner">
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide">
+                            <img src="images/product1.jpg" alt="Акционный товар 1">
+                            <h3>Супер Скидка на Товар 1</h3>
+                            <p>Описание товара 1 со скидкой.</p>
+                            <a href="#">Купить сейчас</a>
+                        </div>
+                        <div class="slide">
+                            <img src="images/product1.jpg" alt="Акционный товар 2">
+                            <h3>Специальное Предложение на Товар 2</h3>
+                            <p>Описание товара 2 по сниженной цене.</p>
+                            <a href="#">Купить сейчас</a>
+                        </div>
+                        <div class="slide">
+                            <img src="images/product1.jpg" alt="Акционный товар 3">
+                            <h3>Акция на Товар 3</h3>
+                            <p>Описание товара 3 с хорошей скидкой.</p>
+                            <a href="#">Купить сейчас</a>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="prev-btn" >&lt;</button>
+                        <button class="next-btn">&gt;</button>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <section card>
+
+        <div class="container">
+
+            <div class="card">
+
+                <div class="card-container">
+
+                    <div class="card-content">
+
+                        <img src="images/card.jpg" alt="">
+                        <h1>Диван</h1>
+                        <p>100000p</p>
+                        <button>Купить</button>
+                    </div>
+
+                </div>
+
+                <div class="card-container">
+
+                    <div class="card-content">
+
+                        <img src="images/card.jpg" alt="">
+                        <h1>Диван</h1>
+                        <p>100000p</p>
+                        <button>Купить</button>
+                    </div>
+
+                </div>
+
+                <div class="card-container">
+
+                    <div class="card-content">
+
+                        <img src="images/card.jpg" alt="">
+                        <h1>Диван</h1>
+                        <p>100000p</p>
+                        <button>Купить</button>
+                    </div>
+
+                </div>
+                
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container">
+
+            <div class="cont-Us">
+<h1>О НАС</h1>
+            <div class="Us">
+
+                <div class="img-us"><img src="images/us.jpg" alt=""></div>
+                <div class="txt-us">Сложно сказать, почему ключевые особенности структуры проекта будут описаны максимально подробно. И нет сомнений, что стремящиеся вытеснить традиционное производство, нанотехнологии объективно рассмотрены соответствующими инстанциями. Есть над чем задуматься: предприниматели в сети интернет будут подвергнуты целой серии независимых исследований.</div>
+
+            </div>
+
+        </div>
+
+    </div>
+    </section>
+
+    <div class="container">
+        <h1>Ответы на вопросы</h1>
+        <div class="accordion">
+    
+            <div class="cont-accordiion">
+    
+                <div class="content-accordion" onclick="toggleAccordion(this)" >
+    
+                    <div class="header-accordion">
+    
+    
+                    
+    
+                    </div>
+    
+                    <div class="main-accordion">
+    
+                        <h3>Заголовок</h3>
+                        <p>описание</p>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="content-accordion" onclick="toggleAccordion(this)" >
+    
+                    <div class="header-accordion">
+    
+                        
+    
+                      
+                    
+    
+                    </div>
+    
+                    <div class="main-accordion">
+    
+                        <h3>Заголовок2</h3>
+                        <p>описание2</p>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+    
+       </div> 
+
+       <footer>
+
+        <div class="footer">
+
+            <h1>Mango</h1>
+            <p>Позвоните нам</p>
+            <img src="images/calling_15922643.png" alt="" onclick="openModal()">
+        </div>
+
+       </footer>
+
+       <div id="myModal" class="modal">
+
+        <div class="modal__content">
+
+          <h3>Наш номер</h3>
+
+          <div class="modal__buttons">
+
+            <button onclick="closeModal()" > +735636856</button>
+        
+
+          </div>
+        </div>
+      </div>
+      <script src="main.js"></script>
+</body>
+</html>
