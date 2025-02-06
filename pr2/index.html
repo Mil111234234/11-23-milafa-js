@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script> 
+    <title>Slider</title> 
+</head>
+<body>
+    <div class="container">
+        <div class="slider">
+            <div class="slider__body"> 
+                <div class="slider__content">
+                    <button class="slider__arrow slider__arrow--left" style="transform: scaleX(-1);"> 
+                        <img src="icons8-стрелка-50.png" alt="" class="slider__arrow-image">  
+                    </button>
+                    <div class="slider__item">
+                        <img src="card.jpg" alt="" class="slider__image"> 
+                    </div>
+                    <div class="slider__item">
+                        <img src="card.jpg" alt="" class="slider__image">  
+                    </div>
+                    <div class="slider__item">
+                        <img src="card.jpg" alt="" class="slider__image">  
+                    </div>
+                    
+                </div>
+
+                <button class="slider__arrow slider__arrow--right">  
+                    <img src="icons8-стрелка-50.png" alt="" class="slider__arrow-image" >  
+                </button>
+            </div>
+
+            <div class="slider__dots">
+                <button data-index="0" class="slider__dot slider__dot--active"></button> 
+                <button data-index="1" class="slider__dot"></button>  
+                <button data-index="2" class="slider__dot"></button> 
+              
+            </div>
+        </div>
+    </div>
+</body>
+</html>
